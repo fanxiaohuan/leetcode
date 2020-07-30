@@ -14,7 +14,7 @@ class Solution(object):
         # romanDouberDic={'IV':4,'IX':9,'XL':40,'XC':90,'CD':500,'CM':900}
         # keys=['I','V','X','L','C','D','M']
         # values=['1','5','10','50','100','500','1000']
-        # romanStr=romanDic(zip(keys,values))
+        # romanStr=zip(keys,values)
         number=0
         for key in range(len(s)):
             if key<len(s)-1 and romanDic[s[key]]<romanDic[s[key+1]]:
