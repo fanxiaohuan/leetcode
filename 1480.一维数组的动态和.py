@@ -11,7 +11,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        runingSumList=nums
+        runingSmList=nums
         for i in range(1,len(nums)):
             runingSumList[i]=nums[i]+runingSumList[i-1] 
         
