@@ -32,5 +32,5 @@ class Solution(object):
 # python 定义class类函数
 s = Solution()
 s.twoSum([2,5,7,4],9)
-print s
+print(s)
 
